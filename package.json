@@ -1,0 +1,21 @@
+{
+  "name": "movieapplication_server",
+  "version": "1.0.0",
+  "description": "this is the backend express server for movie application",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "author": "Sonu Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.12.6"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
